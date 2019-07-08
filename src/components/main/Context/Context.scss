@@ -1,0 +1,62 @@
+@import '../../../styles/utils.scss';
+
+.context{
+    flex: 1;
+    height: calc(100vh - 4rem);
+    overflow-y: auto;
+    background: $oc-gray-2;
+    display: flex;
+    flex-direction: column;
+
+
+    .system{
+
+        flex:0.1;
+        background: white;
+        margin: 3rem;
+        text-align : center;
+        font-size : 1.5em;
+        color : $oc-gray-6;
+        margin-bottom : 0;
+        box-shadow: 1px 1px;
+        .text {
+            height : 0.5rem;
+            margin: 0.3rem ;
+            padding:0;
+            text-align: left;
+            margin-bottom : 1.5rem;
+            font-size : 1rem;
+        }
+    }
+
+    .notice{
+        flex:0.9;
+        display: flex;
+        .directory{
+            flex:1;
+            display: flex;
+            flex-direction: row;
+
+            .comment{
+                flex:1;
+                margin : 3rem;
+                margin-right : 0;
+                display: flex;
+            }
+            .folder{
+                flex:1;
+                margin : 3rem;
+                margin-right:0;
+                display: flex;
+            }
+            .note {
+                flex: 1;
+                display: flex;
+                margin : 3rem;
+            }
+
+
+        }
+
+    }
+}
