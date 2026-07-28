@@ -41,7 +41,7 @@
     "immutable": "^4.0.0-rc.12",
     "include-media": "^1.4.9",
     "is-wsl": "^1.1.0",
-    "jest": "24.7.1",
+    "jest": "30.4.2",
     "jest-environment-jsdom-fourteen": "0.1.0",
     "jest-resolve": "24.7.1",
     "jest-watch-typeahead": "0.3.0",
